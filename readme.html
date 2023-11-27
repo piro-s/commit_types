@@ -500,8 +500,11 @@ body .markdown-body
   padding-bottom: 0.2em;
   margin: 0;
   font-size: 85%;
-  background-color: rgba(0,0,0,0.04);
   border-radius: 3px;
+}
+
+.markdown-body code:not(.highlight):not(.codehilite), .markdown-body samp {
+  background-color: rgba(0,0,0,0.04);
 }
 
 .markdown-body code:before,
@@ -532,8 +535,16 @@ body .markdown-body
   overflow: auto;
   font-size: 85%;
   line-height: 1.45;
-  background-color: #f7f7f7;
+}
+
+.markdown-body .codehilite,
+.markdown-body .highlight,
+.markdown-body pre {
   border-radius: 3px;
+}
+
+.markdown-body :not(.highlight) > pre {
+  background-color: #f7f7f7;
 }
 
 .markdown-body .codehilite pre,
@@ -1003,7 +1014,7 @@ body .markdown-body
   }
 }
 </style><style>/*GitHub*/
-.highlight {background-color:#fff;color:#333333;}
+.highlight {background-color:#f7f7f7;color:#333333;}
 .highlight .hll {background-color:#ffffcc;}
 .highlight .c{color:#999988;font-style:italic}
 .highlight .err{color:#a61717;background-color:#e3d2d2}
@@ -1071,24 +1082,26 @@ body .markdown-body
 type: Brief description (string no more than 50 characters)<br />
 Empty line<br />
 Description (line width no more than 72).<br />
-<img alt="commit" src="/run/media/piro_tex/storage/work/web/commit_types/images/commit.png" /></p>
+<img alt="commit" src="/home/piro_tex/work/fl/commit_types/images/commit.png" />  </p>
 <h4 id="types_1">Types:<a class="headerlink" href="#types_1" title="Permanent link"></a></h4>
 <p><strong>feat</strong>: <em>new feature</em><br />
-<img alt="feat" src="/run/media/piro_tex/storage/work/web/commit_types/images/feat.png" /></p>
+<img alt="feat" src="/home/piro_tex/work/fl/commit_types/images/feat.png" />  </p>
 <p><strong>fix</strong>: <em>fix error</em><br />
-<img alt="fix" src="/run/media/piro_tex/storage/work/web/commit_types/images/fix.png" /></p>
-<p><strong>del</strong>: <em>delete some files</em></p>
+<img alt="fix" src="/home/piro_tex/work/fl/commit_types/images/fix.png" />  </p>
+<p><strong>del</strong>: <em>delete some files</em>  </p>
 <p><strong>save</strong>: <em>saving between stages</em>  </p>
+<p><strong>upd</strong>: <em>update, when done with some stage</em><br />
+<img alt="upd" src="/home/piro_tex/work/fl/commit_types/images/upd.png" />  </p>
 <p><strong>new</strong>: <em>add something new (scheme, prog, etc)</em><br />
-<img alt="new" src="/run/media/piro_tex/storage/work/web/commit_types/images/new.png" /></p>
+<img alt="new" src="/home/piro_tex/work/fl/commit_types/images/new.png" />  </p>
 <p><strong>docs</strong>: <em>change in docs</em><br />
-<img alt="docs" src="/run/media/piro_tex/storage/work/web/commit_types/images/docs.png" /></p>
+<img alt="docs" src="/home/piro_tex/work/fl/commit_types/images/docs.png" />  </p>
 <p><strong>style</strong>: <em>formating (intendation, etc)</em><br />
-<img alt="style" src="/run/media/piro_tex/storage/work/web/commit_types/images/style.png" /></p>
+<img alt="style" src="/home/piro_tex/work/fl/commit_types/images/style.png" />  </p>
 <p><strong>refactor</strong>: <em>refactoring (renaming, etc)</em><br />
-<img alt="refactor" src="/run/media/piro_tex/storage/work/web/commit_types/images/refactor.png" /></p>
+<img alt="refactor" src="/home/piro_tex/work/fl/commit_types/images/refactor.png" />  </p>
 <p><strong>test</strong>: <em>unittest</em>  </p>
 <p><strong>measure</strong>: <em>added measured data</em>  </p>
 <p><strong>small</strong>: <em>small changes in git files, changelogs and readmes</em><br />
-<img alt="small" src="/run/media/piro_tex/storage/work/web/commit_types/images/small.png" /></p>
+<img alt="small" src="/home/piro_tex/work/fl/commit_types/images/small.png" />  </p>
 <p><strong>error</strong>:  <em>error founded, but not fix</em>  </p></article></body></html>
